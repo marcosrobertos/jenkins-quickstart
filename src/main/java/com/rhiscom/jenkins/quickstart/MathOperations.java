@@ -18,4 +18,8 @@ public class MathOperations {
    public int rest(int a, int b){
       return a - b;
    }
+   
+   public int multiply(int a, int b){
+      return a * b;
+   }
 }

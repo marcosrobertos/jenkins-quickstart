@@ -58,5 +58,17 @@ public class MathOperationsTest {
       int result = instance.rest(a, b);
       assertEquals(expResult, result);
    }
+
+   @Test
+   public void testMultiply() {
+      System.out.println("multiply");
+      int a = 0;
+      int b = 0;
+      MathOperations instance = new MathOperations();
+      int expResult = 0;
+      int result = instance.multiply(a, b);
+      assertEquals(expResult, result);
+      fail("The test case is a prototype.");
+   }
    
 }
